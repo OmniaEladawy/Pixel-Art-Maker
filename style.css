@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 70px;
+    margin: 50px;
+}
+
+input[type = "button"] , input[type = "color"] {
+    cursor: pointer;
+}
+
+h2:nth-of-type(2) , h2:nth-of-type(3) {
+    margin-top: 50px;
+}
+
+tr , td {
+    border: 1px solid #000;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
